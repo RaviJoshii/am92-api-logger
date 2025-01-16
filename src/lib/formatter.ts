@@ -129,7 +129,7 @@ function httpFormatter(logObj: ApiLoggerLogEntry): string {
     }
   }
 
-  return JSON.stringify(logObj)
+  return JSON.stringify(formattedLogObj)
 }
 
 /** @ignore */
